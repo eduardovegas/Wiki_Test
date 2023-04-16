@@ -17,7 +17,7 @@ jobs:
         run: |
           mkdir tmp_wiki
           cd tmp_wiki
-          git clone https://${{ secrets.REGISTRY_TOKEN }}@github.com/$GITHUB_REPOSITORY.wiki.git
+          git clone https://eduardovegas@github.com/$GITHUB_REPOSITORY.wiki.git
           git config --global user.email "eduardo.luiz09@hotmail.com"
           git config --global user.name "Eduardo Luiz"
 
